@@ -1,0 +1,5 @@
+select * FROM QUIZ_TABLE ;
+
+--코멘트 입력법
+COMMENT ON TABLE QUIZ_TABLE IS '퀴즈정보가 들어간 테이블' ;
+COMMENT ON COLUMN QUIZ_TABLE.Q_ID IS '퀴즈ID' ;
